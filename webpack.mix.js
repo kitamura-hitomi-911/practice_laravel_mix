@@ -15,6 +15,12 @@ mix.setPublicPath('public');
 mix.js('resources/assets/js/common.js', 'public/js')
 		.sass('resources/assets/sass/style.scss', 'public/css')
 		.options({
+			autoprefixer:{
+				options:{
+					grid: true,
+					browsers: ['last 2 versions']
+				}
+			},
 			processCssUrls: false
 		})
 		.copyDirectory('resources/assets/img', 'public/img');
