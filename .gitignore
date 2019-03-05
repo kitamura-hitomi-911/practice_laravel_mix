@@ -1,0 +1,6 @@
+/public/js/*
+/public/css/*
+/public/img/*
+!/public/js/.gitkeep
+!/public/css/.gitkeep
+!/public/img/.gitkeep
